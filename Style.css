@@ -95,6 +95,36 @@ header * {
     font-size: 40px;
 }
 /* Menu Start 1 */
+/* Gallery Start */
+#gallery {
+    /* background: url(offer-background.jpg) center  center/cover no-repeat ; */
+    background: #353436;
+    padding: 8rem 0 6rem ;
+}
+#gallery h2 {
+    color: #fff;
+    text-align: center;
+
+}
+#gallery .img-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+#gallery .img-gallery img {
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 0.8;
+}
+#gallery .img-gallery img:hover {
+    opacity: 1;
+}
+/* Gallery End */
 .porjects{
     /* background-color: rgb(19, 175, 223); */
 }
